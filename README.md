@@ -10,28 +10,28 @@ Follow these steps to create a sharable build link manually:
 3. Paste your .ipa file.
 
 4. Copy link to this .ipa file. It will look like this:
-	https://www.dropbox.com/s/u74ecqyuzsud32w/AppName.ipa?dl=0
+	https://www.dropbox.com/s/u74ecqyuzsuxd32w/AppName.ipa?dl=0
 
 5. Now replace www with dl and remove ?dl=0 from suffix : 
-	https://dl.dropbox.com/s/u74ecqyuzsud32w/AppName.ipa
+	https://dl.dropbox.com/s/u74ecqyuzsuxd32w/AppName.ipa
 
 6. Copy this URL, open **_manifest.plist_**, and paste it in **_software-package_** under **_assets_**
 
 7. Now copy this **_manifest.plist_** file and paste it in dropbox at the same location as your .ipa
 
 8. Copy link to manifest.plist. It will look like this:
-	https://www.dropbox.com/s/kb9z2d1uet15jiq/manifest.plist?dl=0
+	https://www.dropbox.com/s/kb9z2d1duet15jiq/manifest.plist?dl=0
 
 9. Repeat step 5 for this url:
-	https://dl.dropbox.com/s/kb9z2d1uet15jiq/manifest.plist
+	https://dl.dropbox.com/s/kb9z2d1duet15jiq/manifest.plist
 
 10. Copy this URL and paste it at the end of:
 	itms-services://?action=download-manifest&url=
 
 11. Final url will look like:
-	itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/kb9z2d1uet15jiq/manifest.plist
+	itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/kb9z2d1duet15jiq/manifest.plist
 
 12. Create a text file name **_AppName.html_** and paste this URL in href:
-	<a href="itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/kb9z2d1uet15jiq/manifest.plist">Install App</a>
+	<a href="itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/kb9z2d1duet15jiq/manifest.plist">Install App</a>
 
 13. Share this file on devices you wish to install the build.
