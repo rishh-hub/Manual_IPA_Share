@@ -3,7 +3,7 @@ This repo lists the steps to share ipa link without the need to use Diawi, Deplo
 
 Follow these steps to create a sharable build link manually:
 
-1. While exporting the .ipa file, select **_INCLUDE manifest for over-the-air installation_**, and then paste your dropbox url with **_AppName.ipa_**, and **_AppName1.png_**, **_AppName2.png_** in the respective fields.
+1. While exporting the .ipa file, select **_Include manifest for over-the-air installation_**, and then paste your dropbox url with **_AppName.ipa_**, and **_AppName1.png_**, **_AppName2.png_** in the respective fields.
 
 2. Create a dropbox account.
 
