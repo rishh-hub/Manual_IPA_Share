@@ -17,7 +17,7 @@ Follow these steps to create a sharable build link manually:
 
 6. Copy this URL, open **_manifest.plist_**, and paste it in **_software-package_** under **_assets_**
 
-7. Now copy this **_manifest.plist_ **file and paste it in dropbox at the same location as your .ipa
+7. Now copy this **_manifest.plist_** file and paste it in dropbox at the same location as your .ipa
 
 8. Copy link to manifest.plist. It will look like this:
 	https://www.dropbox.com/s/kb9z2d1uet15jiq/manifest.plist?dl=0
