@@ -10,10 +10,10 @@ Follow these steps to create a sharable build link manually:
 3. Paste your .ipa file.
 
 4. Copy link to this .ipa file. It will look like this:
-	https://www.dropbox.com/s/u74ecqyuzsud32w/Avatus.ipa?dl=0
+	https://www.dropbox.com/s/u74ecqyuzsud32w/AppName.ipa?dl=0
 
 5. Now replace www with dl and remove ?dl=0 from suffix : 
-	https://dl.dropbox.com/s/u74ecqyuzsud32w/Avatus.ipa
+	https://dl.dropbox.com/s/u74ecqyuzsud32w/AppName.ipa
 
 6. Copy this URL, open **_manifest.plist_**, and paste it in **_software-package_** under **_assets_**
 
